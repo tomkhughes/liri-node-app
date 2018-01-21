@@ -1,0 +1,29 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "liri node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkhughes/liri-node-app.git"
+  },
+  "keywords": [
+    "liri",
+    "node",
+    "app"
+  ],
+  "author": "Tom Hughes <tkhughes@g.cofc.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomkhughes/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/tomkhughes/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  }
+}
