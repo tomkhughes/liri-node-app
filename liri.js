@@ -126,5 +126,14 @@ request(queryUrl, function(error, response, data) {
 });
 }
 function doWhatItSays(){
-    
+    const fs = require('fs');
+    fs.readFile('random.txt', 'utf8', function(err, data) {
+        if (err) {throw err}
+        const randomText = data.split(', ');
+        console.log(randomText);
+        command = randomText[0]
+        input = randomText[1]
+        spotifySong();
+
+    })
 };
